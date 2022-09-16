@@ -1,0 +1,61 @@
+.topnav {
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav .user-info {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width: fit-content;
+    margin-left: auto;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .topnav .user-info:hover{
+      color: rgb(250, 157, 27);
+      text-decoration: none;
+  }
+
+  .user-info .name{
+      margin-top: 8px;
+  }
+
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(250, 157, 27);
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  .avatar{
+      width: 30px;
+      margin-right: 7px;
+  }
+
+  .dropdown-account{
+      display: flex;
+  }

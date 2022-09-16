@@ -1,0 +1,89 @@
+.home-container{
+    position: relative;
+    background-image: url('profile_pics/home-background.jpeg');
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 35em;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.brand-name-index{
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    font-size: 4em;
+}
+.msg-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 18em;
+    left: 12em;
+    width: 50%;
+    height: 20em;
+}
+.index-btn{
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0;
+}
+.index-btn a:nth-child(1){
+    margin-right: 2em;
+}
+.index-btn a:nth-child(1) button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 157, 27);
+    color: white;
+    width: 8em;
+    text-align: center;
+    height: 2em;
+    border-radius: 3px;
+    border: none;
+}
+.index-btn a, .index-btn a:hover{
+    text-decoration: none;
+}
+.index-btn a:nth-child(2) button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 157, 27);
+    color: white;
+    width: 8em;
+    text-align: center;
+    height: 2em;
+    border-radius: 3px;
+    border: none;
+}
+.index-btn a:nth-child(1) button i{
+    font-size: 20px;
+}
+.index-btn a:nth-child(2) button i{
+    font-size: 20px;
+}
+
+.index-btn a:nth-child(2) .btn-active:hover,.index-btn a:nth-child(1) .btn-active:hover{
+    transform: translateY(-2px);
+    border: solid rgba(250, 157, 27, 0.5);
+    box-shadow: 10px 10px 20px rgba(255,255,255, 0.15);
+    cursor: pointer;
+}
+.index-btn a:nth-child(2) .btn-active:active,.index-btn a:nth-child(1) .btn-active:active{
+    transform: translateY(-3px);
+    border: solid rgba(255,255,255,0.4);
+    border-color: white;
+    border-style: none;
+    box-shadow: 5px 5px 10px rgba(255,255,0.2);
+}
+.index-btn a:nth-child(2) .btn-disabled,.index-btn a:nth-child(1) .btn-disabled{
+    background-color: rgb(145, 87, 4);
+}

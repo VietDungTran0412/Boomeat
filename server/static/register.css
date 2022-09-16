@@ -1,0 +1,35 @@
+.register-form{
+    width: 30%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin: auto;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+button[type='submit']{
+    width: 20%;
+    margin: auto;
+}
+.submit-btn a{
+
+    margin: auto;
+}
+
+/* .submit-btn a button{
+    width: 20%;
+} */
+
+.submit-btn{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
